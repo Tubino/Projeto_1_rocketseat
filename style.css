@@ -1,0 +1,60 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#hero {
+    width: 59.2rem;
+    margin: auto;
+    margin-bottom: 7.2rem;
+}
+
+#hero img {
+    margin-bottom: 7.4rem;
+}
+
+h1 {
+    font-size: 4.9rem;
+    line-height: 5.6rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    margin-bottom: 3.2rem;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+span, a{
+    color:#FF9900;
+}
+
+p, #footer {
+    color: #7D7987;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+
+
+/* a + a (regra onde ele pega o elemento anterior ao dele e aplica o comando*/
+
+#footer a + a {
+    margin-left: 2.8rem;
+}
+
+#line {
+    width: 56.8rem;
+    height: 0;
+    margin: auto;
+
+    border: 1px solid #eceff2;
+}
+
+
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
